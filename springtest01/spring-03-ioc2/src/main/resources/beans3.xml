@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        bean中：
+            id：bean的唯一标识符，也就是相当于我们的对象名
+            class：所创建的对象的报名+类名
+            name：也是别名，而且name可以取多个别名，例如 1)name="user4 user5"   2)name="user4,user5"
+    --> 
+    <bean id="user3" class="com.hf.pojo.User" name="user4">
+        <constructor-arg name="name" value="赵六"/>
+        <constructor-arg name="age" value="12"/>
+    </bean>
+
+
+</beans>

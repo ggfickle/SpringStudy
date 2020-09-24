@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--默认使用无参构造注入-->
+    <bean id="user" class="com.hf.pojo.User">
+        <property name="name" value="张三"/>
+        <property name="age" value="16"/>
+    </bean>
+
+    <!--配置别名-->
+    <alias name="user" alias="userTT"/>
+
+</beans>
