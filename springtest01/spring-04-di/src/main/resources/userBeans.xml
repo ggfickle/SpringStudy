@@ -19,6 +19,6 @@
     <!--原型模式: 每次从容器中get的时候都会产生一个新的对象-->
     <bean id="user3" class="com.hf.pojo.User" scope="prototype"/>
     <!--只在web开发中使用的到-->
-    <bean id="user3" class="com.hf.pojo.User" scope="session"/>
-    <bean id="user3" class="com.hf.pojo.User" scope="request"/>
+    <bean id="user4" class="com.hf.pojo.User" scope="session"/>
+    <bean id="user5" class="com.hf.pojo.User" scope="request"/>
 </beans>
