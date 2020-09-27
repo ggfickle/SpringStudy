@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca0637c-7fb4-4d9c-a0db-6f17a0e3a7a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/spring-05-Autowired.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/hf/pojo/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/hf/pojo/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/java/com/hf/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/main/resources/beans2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Autowired/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-04-di/spring-04-di.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/spring-04-di.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-04-di/src/main/resources/userBeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/userBeans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,14 +73,7 @@
       <recent name="C:\Users\xhflo\IdeaProjects\springtest01\spring-01-ioc1\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test2">
-    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-02-hellospring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyTest">
     <configuration name="MyTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-03-ioc2" />
@@ -84,6 +84,13 @@
     <configuration name="MyTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-04-di" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-05-Autowired" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyTest (2)" />
       <item itemvalue="Application.MyTest (3)" />
       <item itemvalue="Application.MyTest (4)" />
       <item itemvalue="JUnit.MyTest.test2" />
       <item itemvalue="JUnit.MyTest.test3" />
+      <item itemvalue="Application.MyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest" />
         <item itemvalue="JUnit.MyTest.test2" />
         <item itemvalue="JUnit.MyTest.test3" />
         <item itemvalue="Application.MyTest (3)" />
         <item itemvalue="Application.MyTest (4)" />
-        <item itemvalue="Application.MyTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +192,7 @@
       <workItem from="1600951272586" duration="8417000" />
       <workItem from="1600961152260" duration="332000" />
       <workItem from="1601212772021" duration="4372000" />
-      <workItem from="1601218852019" duration="239000" />
+      <workItem from="1601218852019" duration="2652000" />
     </task>
     <task id="LOCAL-00001" summary="add some files">
       <created>1601218561901</created>
@@ -194,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601218561901</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix bug:修复多个bean id相同的问题">
+      <created>1601219136963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601219136963</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix bug:修复多个bean id相同的问题">
+      <created>1601219283496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601219283496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +234,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add some files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some files" />
+    <MESSAGE value="fix bug:修复多个bean id相同的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug:修复多个bean id相同的问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1601218645292">
@@ -228,10 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601212842461" />
-    <state x="552" y="178" key="#Project_Structure" timestamp="1601218901586">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1601220927774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218901586" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601220927774" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600961275551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -240,18 +262,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600957895750" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1601217773924">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1601220222340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601217773924" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601220222340" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601218980192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218980192" />
-    <state x="478" y="110" key="CommitChangelistDialog2" timestamp="1601219157639">
+    <state x="478" y="110" key="CommitChangelistDialog2" timestamp="1601219281637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="478" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601219157639" />
+    <state x="478" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601219281637" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601219077445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,38 +282,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="737" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218794108" />
-    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1601219142318">
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1601221235448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601219142318" />
-    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1601219142318">
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601221235448" />
+    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1601221235448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601219142318" />
-    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1601219142318">
+    <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601221235448" />
+    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1601221235448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601219142318" />
-    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1601219142318">
+    <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601221235448" />
+    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1601221235448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601219142318" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601218569853">
+    <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601221235448" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601219297219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218569853" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601219297219" />
     <state x="671" y="311" key="git4idea.merge.GitPullDialog" timestamp="1600961401480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="671" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600961401480" />
-    <state x="334" y="214" key="new project wizard" timestamp="1601213044644">
+    <state x="334" y="214" key="new project wizard" timestamp="1601220098317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="214" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601213044644" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601218177737">
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601220098317" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601220491816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218177737" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601220491816" />
     <state x="637" y="203" key="spring file set editor" timestamp="1601218899340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

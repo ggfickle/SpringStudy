@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="cat" class="com.hf.pojo.Cat"/>
+    <bean id="dog" class="com.hf.pojo.Dog"/>
+
+    <!--byName: 根据对应属性的名称进行自动装配，id必须要和属性名一致-->
+    <bean id="person" class="com.hf.pojo.Person" autowire="byName">
+        <property name="name" value="zhangsan"/>
+    </bean>
+
+    <!--byType：根据对应字段的类型进行自动装配，可不写id名，但是必须要求不可具有相同的类型-->
+    <bean id="person1" class="com.hf.pojo.Person" autowire="byType">
+        <property name="name" value="zhangsan"/>
+    </bean>
+</beans>
