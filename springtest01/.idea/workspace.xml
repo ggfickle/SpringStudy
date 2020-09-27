@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ca0637c-7fb4-4d9c-a0db-6f17a0e3a7a8" name="Default Changelist" comment="" />
+    <list default="true" id="4ca0637c-7fb4-4d9c-a0db-6f17a0e3a7a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/springtest01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/spring-04-di.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/java/com/hf/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/java/com/hf/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/java/com/hf/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/userBeans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-02-hellospring/spring-02-hellospring.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,13 +47,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1hxSUiMdLxBMstC6sP3pW2ZQI2Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-03-ioc2/src/main/resources" />
@@ -53,14 +77,7 @@
       <recent name="C:\Users\xhflo\IdeaProjects\springtest01\spring-01-ioc1\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest (3)">
-    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-01-ioc1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyTest.test3">
     <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-02-hellospring" />
@@ -75,9 +92,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="springStudy" />
+      <module name="spring-04-di" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-04-di" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-04-di" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,12 +166,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MyTest (2)" />
+      <item itemvalue="Application.MyTest (3)" />
+      <item itemvalue="Application.MyTest (4)" />
+      <item itemvalue="JUnit.MyTest.test2" />
+      <item itemvalue="JUnit.MyTest.test3" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test3" />
+        <item itemvalue="JUnit.MyTest.test2" />
+        <item itemvalue="Application.MyTest (4)" />
         <item itemvalue="Application.MyTest (3)" />
         <item itemvalue="Application.MyTest (2)" />
-        <item itemvalue="Application.MyTest (1)" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,52 +194,91 @@
       <option name="presentableId" value="Default" />
       <updated>1600951267619</updated>
       <workItem from="1600951272586" duration="8417000" />
+      <workItem from="1600961152260" duration="332000" />
+      <workItem from="1601212772021" duration="3954000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1600957999484">
+    <state x="653" y="176" key="#MyTest" timestamp="1600961242541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600957999484" />
+    <state x="653" y="176" key="#MyTest/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600961242541" />
+    <state x="552" y="178" key="#Notifications" timestamp="1601212842461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601212842461" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1601213065510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601213065510" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600961275551">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600961275551" />
     <state x="694" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600957895750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600957895750" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600957989282">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1601217773924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600957989282" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601217773924" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600952050569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600952050569" />
-    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1600959928575">
+    <state x="478" y="110" key="CommitChangelistDialog2" timestamp="1601218539146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600959928575" />
-    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1600959928574">
+    <state x="478" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218539146" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1600961426180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600959928574" />
-    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1600959928574">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600961426180" />
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1601218517235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600959928574" />
-    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1600959928574">
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218517235" />
+    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1601218517235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600959928574" />
-    <state x="334" y="214" key="new project wizard" timestamp="1600957751617">
+    <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218517235" />
+    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1601218517234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="214" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600957751617" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600956948948">
+    <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218517234" />
+    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1601218517235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600956948948" />
+    <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218517235" />
+    <state x="671" y="311" key="git4idea.merge.GitPullDialog" timestamp="1600961401480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600961401480" />
+    <state x="334" y="214" key="new project wizard" timestamp="1601213044644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601213044644" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601218177737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601218177737" />
   </component>
 </project>

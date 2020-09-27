@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="address" class="com.hf.pojo.Address">
+        <property name="localtionId" value="1001"/>
+        <property name="localtionName" value="HangZhou"/>
+    </bean>
+
+    <bean id="student" class="com.hf.pojo.Student">
+
+        <!--普通值注入 -->
+        <property name="name" value="张三"/>
+
+        <!--bean注入  ref -->
+        <property name="address" ref="address"/>
+
+        <!--数组 -->
+        <property name="books">
+            <array>
+                <value>book1</value>
+                <value>book2</value>
+                <value>book3</value>
+            </array>
+        </property>
+
+        <!--List -->
+        <property name="hobbies">
+            <list>
+                <value>basketball</value>
+                <value>football</value>
+                <value>LOL</value>
+            </list>
+        </property>
+
+        <!--Map -->
+        <property name="card">
+            <map>
+                <entry key="card1" value="value1"/>
+                <entry key="card2" value="value2"/>
+                <entry key="card3" value="value3"/>
+            </map>
+        </property>
+
+        <!--Set -->
+        <property name="games">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+                <value>set3</value>
+            </set>
+        </property>
+
+        <!--null -->
+        <property name="wife">
+            <null/>
+        </property>
+
+        <!--properties -->
+        <property name="info">
+            <props>
+                <prop key="driver">Mysql</prop>
+                <prop key="url">3306</prop>
+                <prop key="username">root</prop>
+            </props>
+        </property>
+    </bean>
+
+
+</beans>
