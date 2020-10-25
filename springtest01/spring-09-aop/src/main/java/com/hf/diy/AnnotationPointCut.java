@@ -3,6 +3,7 @@ package com.hf.diy;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
 
 /**
  * @program: springtest01
@@ -10,6 +11,7 @@ import org.aspectj.lang.annotation.Before;
  * @author: xiehongfei
  * @create: 2020-10-25 17:45
  **/
+@Component
 @Aspect
 public class AnnotationPointCut {
 

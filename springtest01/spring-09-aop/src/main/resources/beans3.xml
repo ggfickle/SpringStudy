@@ -12,7 +12,8 @@
     <bean id="afterLog" class="com.hf.log.AfterLog"/>
 
     <!--方式三-->
-    <bean id="annotationPointCut" class="com.hf.diy.AnnotationPointCut"/>
+    <!--下面的bean可通过@Compoent注解实现-->
+<!--    <bean id="annotationPointCut" class="com.hf.diy.AnnotationPointCut"/>-->
     <!--开启注解支持-->
     <aop:aspectj-autoproxy/>
 
